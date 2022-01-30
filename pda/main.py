@@ -5,10 +5,10 @@
 import telebot
 from telebot import types
 import json
-import token
+import tg_token
 
 
-bot_token = token.token
+bot_token = tg_token.token
 VOICE_LEN = 5000
 CHANNEL_ID = -1001698183512
 bot = telebot.TeleBot(bot_token)
